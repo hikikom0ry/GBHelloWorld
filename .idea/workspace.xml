@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="93d58abe-eb2e-4a49-9a3b-d0647f738819" name="Default Changelist" comment="Добавление переменной i">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GeekBrainsJava.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GeekBrainsJava/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/README" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nwQ7ihBHDb7qSHcqq7nizkCrxw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="GeekBrainsJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93d58abe-eb2e-4a49-9a3b-d0647f738819" name="Default Changelist" comment="" />
+      <created>1612298507900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612298507900</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Добавление текстового файла">
+      <created>1612698179076</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612698179076</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавление переменной i">
+      <created>1612698307925</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612698307925</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Добавление текстового файла" />
+    <MESSAGE value="Добавление переменной i" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление переменной i" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="120" y="66" key="#Project_Structure" timestamp="1612298579390">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="120" y="66" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1612298579390" />
+    <state x="402" y="294" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612698115739">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="402" y="294" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.984@0.0.1280.984" timestamp="1612698115739" />
+    <state x="420" y="233" key="FileChooserDialogImpl" timestamp="1612699478850">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="233" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1612699478850" />
+    <state x="508" y="390" key="Github.ShareDialog" timestamp="1612697855374">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="508" y="390" key="Github.ShareDialog/0.0.1280.984@0.0.1280.984" timestamp="1612697855374" />
+    <state x="342" y="197" key="Github.UntrackedFilesDialog" timestamp="1612697861916">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="342" y="197" key="Github.UntrackedFilesDialog/0.0.1280.984@0.0.1280.984" timestamp="1612697861916" />
+    <state width="1200" height="247" key="GridCell.Tab.0.bottom" timestamp="1612307635391">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="247" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1612307635391" />
+    <state width="1200" height="247" key="GridCell.Tab.0.center" timestamp="1612307635391">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="247" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1612307635391" />
+    <state width="1200" height="247" key="GridCell.Tab.0.left" timestamp="1612307635391">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="247" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1612307635391" />
+    <state width="1200" height="247" key="GridCell.Tab.0.right" timestamp="1612307635391">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="247" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1612307635391" />
+    <state x="232" y="212" key="Vcs.Push.Dialog.v2" timestamp="1612698318200">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="212" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1612698318200" />
+    <state x="22" y="112" key="new project wizard" timestamp="1612699483868">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="22" y="112" key="new project wizard/0.0.1280.984@0.0.1280.984" timestamp="1612699483868" />
+  </component>
+</project>
