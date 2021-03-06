@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class Program {
     static char[][] map;
-    static final int SIZE = 3;
-    static final int DOTS_TO_WIN = 3;
+    static final int SIZE = 5;
+    static final int DOTS_TO_WIN = 4;
     static final char DOT_X = 'X';
     static final char DOT_O = 'O';
     static final char DOT_EMPTY = '.';
@@ -16,24 +16,30 @@ public class Program {
         initMap();
         printMap();
         while(true){
-            humanTurn();
-            printMap();
-            if (checkWin(DOT_X)){
+            if (humanTurn()){
                 System.out.println("Победил человек");
                 break;
-            }
+            };
+            printMap();
+//            if (checkWinEx(DOT_X)){
+//                System.out.println("Победил человек");
+//                break;
+//            }
             if (isMapFull()){
                 System.out.println("Ничья");
                 break;
             }
 
-            aiTurn();
-            printMap();
-
-            if (checkWin(DOT_O)){
+            if (aiTurn()){
                 System.out.println("Победил компьютер");
                 break;
-            }
+            };
+            printMap();
+
+//            if (checkWinEx(DOT_O)){
+//                System.out.println("Победил компьютер");
+//                break;
+//            }
             if (isMapFull()){
                 System.out.println("Ничья");
                 break;
@@ -65,7 +71,7 @@ public class Program {
         }
     }
 
-    static void humanTurn(){
+    static boolean humanTurn(){
         int x, y;
         Scanner scanner = new Scanner(System.in);
         do{
@@ -74,9 +80,12 @@ public class Program {
             y = scanner.nextInt() - 1;
         } while (!isCellValid(x, y));
         map[y][x] = DOT_X;
+        if (x == y || x + y == SIZE-1){
+            return checkWinEx(DOT_X, y, x);
+        } else return checkWin(DOT_X, y, x);
     }
 
-    static void aiTurn(){
+    static boolean aiTurn(){
         Random random = new Random();
         int x, y;
         do{
@@ -85,6 +94,9 @@ public class Program {
         } while (!isCellValid(x, y));
         map[y][x] = DOT_O;
         System.out.println("Компьютер сходил в точку " + (x + 1) + " " + (y + 1));
+        if (x == y || x + y == SIZE-1){
+            return checkWinEx(DOT_O, y, x);
+        } else return checkWin(DOT_O, y, x);
     }
 
     static boolean isCellValid(int x, int y){
@@ -98,37 +110,39 @@ public class Program {
         return false;
     }
 
-    static boolean checkWin(char sym){
-        //Проверка строк на наличие 3 одинаковых символов
-        if (map[0][0] == sym && map[0][1] == sym && map[0][2] == sym){
-            return true;
-        }
-        if (map[1][0] == sym && map[1][1] == sym && map[1][2] == sym){
-            return true;
-        }
-        if (map[2][0] == sym && map[2][1] == sym && map[2][2] == sym){
-            return true;
-        }
+    static boolean checkWin(char sym, int y ,int x){
+        int countY = 0, countX = 0;
+        for (int i = 0; i <SIZE; i++){
 
-        //Проверка столбцов на наличие 3 одинаковых символов
-        if (map[0][0] == sym && map[1][0] == sym && map[2][0] == sym){
+            if (map[y][i] == sym) {
+                countY++;
+            }
+            if (map[i][x] == sym){
+                countX++;
+            }
+        }
+        if (countX == DOTS_TO_WIN || countY == DOTS_TO_WIN){
+            printMap();
             return true;
         }
-        if (map[0][1] == sym && map[1][1] == sym && map[2][1] == sym){
-            return true;
-        }
-        if (map[0][2] == sym && map[1][2] == sym && map[2][2] == sym){
-            return true;
-        }
+        return false;
+    }
 
-        //Проверка диагоналей на наличие 3 одинаковых символов
-        if (map[0][0] == sym && map[1][1] == sym && map[2][2] == sym){
+    static boolean checkWinEx(char sym, int y, int x){
+        checkWin(sym, y, x);
+        int mainDiag = 0, alterDiag = 0;
+        for (int i = 0; i < SIZE; i++){
+            if (map[i][i] == sym){
+                mainDiag++;
+            }
+            if (map[SIZE-i-1][i] == sym){
+                alterDiag++;
+            }
+        }
+        if (mainDiag == DOTS_TO_WIN || alterDiag == DOTS_TO_WIN){
+            printMap();
             return true;
         }
-        if (map[0][2] == sym && map[1][1] == sym && map[2][0] == sym){
-            return true;
-        }
-
         return false;
     }
 
